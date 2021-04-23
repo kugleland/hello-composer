@@ -1,0 +1,17 @@
+{
+    "name": "kugleland/hello-composer",
+    "description": "A simple hello world composer package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Janus Helkjaer",
+            "email": "developer@kugleland.dk"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"kugleland\\HelloWorld\\": "src/"}
+    },
+    "require": {}
+}
